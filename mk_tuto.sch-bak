@@ -118,6 +118,8 @@ Wire Wire Line
 Wire Wire Line
 	5200 3040 5030 3040
 Wire Wire Line
+	4830 3040 4550 3040
+Wire Wire Line
 	4600 3140 4550 3140
 $Comp
 L Device:C_Small C?
@@ -240,16 +242,16 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F50E25A
-P 5040 2840
-F 0 "#PWR?" H 5040 2690 50  0001 C CNN
-F 1 "+5V" H 5055 3013 50  0000 C CNN
-F 2 "" H 5040 2840 50  0001 C CNN
-F 3 "" H 5040 2840 50  0001 C CNN
-	1    5040 2840
+P 5100 2840
+F 0 "#PWR?" H 5100 2690 50  0001 C CNN
+F 1 "+5V" H 5115 3013 50  0000 C CNN
+F 2 "" H 5100 2840 50  0001 C CNN
+F 3 "" H 5100 2840 50  0001 C CNN
+	1    5100 2840
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 2840 5040 2840
+	5200 2840 5100 2840
 $Comp
 L Device:Crystal_GND24_Small Y?
 U 1 1 5F50F6C1
@@ -360,40 +362,5 @@ Wire Wire Line
 Wire Wire Line
 	4740 1910 4620 1910
 Wire Wire Line
-	5140 2040 5160 2040
-$Comp
-L Device:R_Small R?
-U 1 1 5F54388D
-P 5160 1730
-F 0 "R?" H 5219 1776 50  0000 L CNN
-F 1 "10k" H 5219 1685 50  0000 L CNN
-F 2 "" H 5160 1730 50  0001 C CNN
-F 3 "~" H 5160 1730 50  0001 C CNN
-	1    5160 1730
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5F543F78
-P 5160 1570
-F 0 "#PWR?" H 5160 1420 50  0001 C CNN
-F 1 "+5V" H 5175 1743 50  0000 C CNN
-F 2 "" H 5160 1570 50  0001 C CNN
-F 3 "" H 5160 1570 50  0001 C CNN
-	1    5160 1570
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5160 1570 5160 1630
-Connection ~ 5160 2040
-Wire Wire Line
-	5160 2040 5200 2040
-Wire Wire Line
-	5160 1830 5160 2040
-Wire Wire Line
-	4830 3040 4550 3040
-Text GLabel 4550 3040 0    50   Input ~ 0
-D+
-Text GLabel 4550 3140 0    50   Input ~ 0
-D-
+	5140 2040 5200 2040
 $EndSCHEMATC
