@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:mk_tuto-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -600,4 +601,20 @@ Text GLabel 9280 1310 1    50   Input ~ 0
 COL1
 Wire Wire Line
 	9280 1310 9280 1780
+Text GLabel 6480 2440 2    50   Input ~ 0
+COL0
+Text GLabel 6480 2540 2    50   Input ~ 0
+COL1
+Text GLabel 6460 3940 2    50   Input ~ 0
+ROW0
+Text GLabel 6480 2640 2    50   Input ~ 0
+ROW1
+Wire Wire Line
+	6400 3940 6460 3940
+Wire Wire Line
+	6480 2640 6400 2640
+Wire Wire Line
+	6400 2540 6480 2540
+Wire Wire Line
+	6480 2440 6400 2440
 $EndSCHEMATC
